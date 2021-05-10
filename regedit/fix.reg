@@ -31,3 +31,6 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Accessibility]
 "Configuration"=""
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoDesktop"=dword:00000000
