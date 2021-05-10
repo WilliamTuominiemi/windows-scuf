@@ -1,2 +1,2 @@
 START D:\regedit\fix.reg
-START D:\txt\scuf.txt
+START D:\web\index.html
