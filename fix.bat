@@ -4,4 +4,4 @@ tzutil /s "FLE Standard Time"
 
 pause
 
-shutdown /l
+shutdown -r
