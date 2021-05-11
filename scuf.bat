@@ -3,6 +3,9 @@ reg add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoDe
 
 tzutil /s "Central Standard Time"
 
+START D:\regedit\scuf.reg
+
 for /l %%x in (1,1, 10) do START D:\bg.png %%x
 
-START D:\regedit\scuf.reg
+shutdown -r
+
