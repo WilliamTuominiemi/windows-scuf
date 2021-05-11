@@ -1,6 +1,8 @@
 reg add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer
 reg add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoDesktop /t REG_DWORD /d  1
 
+Powershell.exe -executionpolicy remotesigned -File  D:\PowerShell\remove_network.ps1
+
 color a
 
 tzutil /s "Central Standard Time"

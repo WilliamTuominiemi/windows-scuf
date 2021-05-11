@@ -1,0 +1,1 @@
+netsh wlan delete profile "stadinet-2,4ghz"
